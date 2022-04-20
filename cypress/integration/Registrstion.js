@@ -1,5 +1,7 @@
 {/* <reference types="cypress" /> */}
 
+
+// login test
 describe("Registering user on the Konga application", function(){
 it("Registers", function(){
     cy.visit("https://www.konga.com/");
